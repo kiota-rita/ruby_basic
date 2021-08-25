@@ -1,0 +1,12 @@
+#Gemfile é o documento criado dentro dos projetos para instalaçao de multiplas gems
+#em grandes projetos, não se instala gem por gem, e sim um pacote com várias de uma vez só
+#para isso, comando: sudo gem install bundler
+
+#selecionar a fonte do dowload
+souce 'https://rubygems.org/'
+
+#selecionar quais gems deseja instalar
+gem 'os'
+
+#entrar na pasta que projeto que contém o gemfile: cd nome_pasta (no terminal)
+#rodar comando: bundle (no terminal)
